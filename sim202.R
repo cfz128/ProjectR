@@ -147,7 +147,6 @@ ggplot(data2014[c(1:2784),], aes(Date,Temperature))+geom_line()
 ggplot(data2014[c(1:2784),], aes(Date,Temperature))+geom_boxplot()
 
 ############## III .Building model #####################
-
 ############## Random forest ########################
 eq1 = data2013.rvNA[,2] ~ Temperature + time2013 + Month + Wday + Qday
 eq2 = data2013.rvNA[,12] ~ Temperature + time2013 + Month + Wday + Qday
