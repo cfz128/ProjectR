@@ -14,6 +14,7 @@ library(ggthemes)
 # criterion definition
 rmse=function(eps){return(sqrt(mean(eps^2,na.rm=TRUE)))}
 
+
 ############## I. Data preprocessing#####################
 setwd("~/R/STAT/SIM 202")
 data2013=read.csv("Data0.csv", header=TRUE,sep=",")
