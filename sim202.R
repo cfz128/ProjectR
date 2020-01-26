@@ -27,7 +27,6 @@ data2013$Date=as.POSIXct(data2013$Date,format ="%Y-%m-%d %H:%M:%S")
 data2013$Month=month(as.Date(data2013$date2013))
 data2013$Wday=wday(as.Date(data2013$date2013))
 data2013$Qday=qday(as.Date(data2013$date2013))
-names(data2013)
 
 data2014<-read.csv("Data1.csv", header=TRUE,sep=",")
 str(data2014)
